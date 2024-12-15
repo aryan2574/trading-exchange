@@ -13,8 +13,10 @@ app.use("/balance", balanceRoutes); // Balance Routes
 app.use("/order", orderRoutes); // Order Routes
 
 // Fallback route for undefined paths
-app.use((req, res) => {
-  res.status(404).json({ error: "Route not found" });
+app.use((req: express.Request, res: express.Response) => {
+  res.status(404).send("Resource not found");
+
+  return;
 });
 
 export default app;
