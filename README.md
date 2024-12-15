@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a basic **trading exchange** using Node.js and TypeScript, designed to simulate the functionalities of a trading exchange. The project includes a low-latency matching engine written in C++ integrated into the Node.js backend. The primary features include placing buy/sell orders, retrieving market depth, and managing user balances.
+This project implements a basic **trading exchange** using `Node.js` and `TypeScript`, designed to simulate the functionalities of a trading exchange. The project includes a low-latency matching engine written in `C++` integrated into the Node.js backend. The primary features include placing buy/sell orders, retrieving market depth, and managing user balances.
 
 ---
 
@@ -54,24 +54,21 @@ This project implements a basic **trading exchange** using Node.js and TypeScrip
 ---
 
 ## Project Structure
-
-├── **src**
-│ ├── **api** - API routes and controllers
-│ ├── **config** - Configuration files
-│ ├── **middleware** - Middleware functions
-│ ├── **models** - Data models
-│ ├── **services** - Business logic
-│ ├── **utils** - Utility functions
-│ ├── **index.ts** - Entry point
-├── **native** - C++ matching engine
-│ ├── **src** - Source files
-├── **types** - TypeScript type definitions
-├── **Dockerfile** - Docker configuration
-├── **.eslintrc.json** - ESLint configuration
-├── **.prettierrc.json** - Prettier configuration
-├── **package.json** - Node.js dependencies
-├── **tsconfig.json** - TypeScript configuration
-
+```bash
+├── 📂 src
+│ ├── 📂 api - API routes and controllers
+│ ├── 📂 config - Configuration files
+│ ├── 📂 middleware - Middleware functions
+│ ├── 📂 models - Data models
+│ ├── 📂 services - Business logic
+│ ├── 📂 utils - Utility functions
+│ ├── 📄 index.ts - Entry point
+├── 📂 native - C++ matching engine
+├── 📂 types - TypeScript type definitions
+├── 📄 Dockerfile - Docker configuration
+├── 📄 package.json - Node.js dependencies
+├── 📄 tsconfig.json - TypeScript configuration
+```
 ---
 
 ## API Endpoints
