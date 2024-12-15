@@ -133,7 +133,7 @@ This project implements a basic **trading exchange** using Node.js and TypeScrip
 1. Clone the repository:
    ```bash
    git clone <repository_url>
-   cd trading-bot
+   cd trading-exchange
    ```
 2. Install dependencies:
    ```bash
